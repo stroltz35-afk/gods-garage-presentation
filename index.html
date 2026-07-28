@@ -72,19 +72,20 @@
             justify-content: center;
             align-items: center;
             border-bottom: 1px solid var(--border-color);
-            padding-bottom: 12px;
+            padding-bottom: 10px;
+            height: 60px;
         }
 
-        .ministry-badge {
-            font-family: 'Graduate', serif;
-            font-size: 0.8rem;
-            color: var(--pink-primary);
-            background: var(--surface-card);
-            padding: 5px 16px;
-            border-radius: 20px;
-            border: 1px solid var(--border-color);
-            letter-spacing: 1px;
-            text-transform: uppercase;
+        .logo-badge {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-badge img {
+            max-height: 100%;
+            object-fit: contain;
         }
 
         .slide-body {
@@ -253,10 +254,12 @@
 
 <div class="deck-container">
 
-    <!-- SLIDE 1: Restore U Cover with Image -->
+    <!-- SLIDE 1: Restore U Cover with Logo and Image -->
     <div class="slide">
         <div class="slide-header">
-            <div class="ministry-badge">God's Garage Ministry</div>
+            <div class="logo-badge">
+                <img src="Gods Garage Logo.png" alt="God's Garage Logo">
+            </div>
         </div>
         <div class="slide-body">
             <div class="content-grid">
